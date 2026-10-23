@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>İletişim | Fizyolates Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Fizyolates Studio iletişim, rezervasyon ve sıkça sorulan sorular.">
+<link rel="icon" href="assets/img/logo-kirmizi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@200;300;400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#icerik">İçeriğe geç</a>
+<div class="cursor" aria-hidden="true"><span></span></div>
+<div class="progress" id="progress"></div>
+<header class="site" id="hdr">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Fizyolates Studio ana sayfa"><img src="assets/img/logo-kirmizi.png" alt="Fizyolates" width="303" height="218"></a>
+    <nav class="main" aria-label="Ana menü">
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="iletisim.html" aria-current="page">İletişim</a>
+    </nav>
+    <div class="h-right">
+      <a class="btn btn-dark" href="iletisim.html#rezervasyon" data-magnetic>Rezervasyon <span class="dot" aria-hidden="true"></span></a>
+      <button class="menu-btn" type="button" aria-label="Menüyü aç" aria-expanded="false"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M4 9h16M4 15h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main class="story" id="icerik">
+  <div class="lineart" data-draw-host aria-hidden="true">
+    <svg viewBox="0 0 1000 6000" preserveAspectRatio="none"><path pathLength="1" data-draw d="M820 140 C 980 520, 600 760, 680 1200 S 200 1900, 260 2600 S 860 3400, 640 4200 S 160 5000, 420 6000"/></svg>
+  </div>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Konum"><a href="index.html">Ana Sayfa</a><span aria-hidden="true">/</span><span>İletişim</span></nav>
+      <h1 class="mega"><span class="ln"><span class="a">İletişim</span></span><span class="ln"><span class="b">ilk adımı <em>birlikte</em> atalım.</span></span></h1>
+      <p class="intro">Ders, gün ve saati seçin; mesajınız hazır olsun. Ya da doğrudan arayın, size en uygun başlangıcı birlikte planlayalım.</p>
+    </div>
+  </section>
+
+  <section class="info-sec">
+    <div class="wrap">
+      <div class="info">
+        <div data-reveal><p class="label red">Telefon &amp; WhatsApp</p><p class="v">[TELEFON]</p><button class="copy-btn" type="button" data-copy="[TELEFON]">Numarayı kopyala</button></div>
+        <div data-reveal style="--d:.08s"><p class="label red">Adres</p><p class="v">[ADRES]</p><a class="copy-btn" href="https://maps.google.com/" style="text-decoration:underline">Yol tarifi</a></div>
+        <div data-reveal style="--d:.16s"><p class="label red">E-posta</p><p class="v">[E-POSTA]</p><a class="copy-btn" href="https://instagram.com/">Instagram</a></div>
+        <div data-reveal style="--d:.24s"><p class="label red">Saatler</p><p class="v">Hafta içi [SAAT]</p><p class="small">Cumartesi [SAAT] · Pazar [Kapalı]</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="book-sec" id="rezervasyon" style="scroll-margin-top:60px">
+    <div class="wrap">
+      <div class="intro" data-reveal><p class="label red">Rezervasyon</p><h2>Kendinize <em>bir saat</em> ayırın.</h2><p>Seçimlerinize göre mesajınız hazırlanır; WhatsApp'ta tek dokunuşla gönderin, ekibimiz size dönsün.</p></div>
+      <form class="book" data-book data-reveal style="--d:.1s">
+        <fieldset><legend>Ders</legend><div class="chips">
+          <span class="chip"><input type="radio" name="ders" id="ders1" value="Klinik Pilates" checked><label for="ders1">Klinik Pilates</label></span>
+          <span class="chip"><input type="radio" name="ders" id="ders2" value="Mat Yogası"><label for="ders2">Mat Yogası</label></span>
+          <span class="chip"><input type="radio" name="ders" id="ders3" value="Zumba"><label for="ders3">Zumba</label></span>
+          <span class="chip"><input type="radio" name="ders" id="ders4" value="Fizyoterapi"><label for="ders4">Fizyoterapi</label></span>
+          <span class="chip"><input type="radio" name="ders" id="ders5" value="Hamile ve Doğum Sonrası Pilates"><label for="ders5">Hamile &amp; Doğum Sonrası</label></span>
+          <span class="chip"><input type="radio" name="ders" id="ders6" value="hangi dersin bana uygun olduğunu öğrenmek"><label for="ders6">Henüz karar vermedim</label></span>
+        </div></fieldset>
+        <fieldset><legend>Gün</legend><div class="chips">
+          <span class="chip"><input type="radio" name="gun" id="gun1" value="hafta içi" checked><label for="gun1">Hafta içi</label></span>
+          <span class="chip"><input type="radio" name="gun" id="gun2" value="hafta sonu"><label for="gun2">Hafta sonu</label></span>
+        </div></fieldset>
+        <fieldset><legend>Saat</legend><div class="chips">
+          <span class="chip"><input type="radio" name="saat" id="saat1" value="sabah" checked><label for="saat1">Sabah</label></span>
+          <span class="chip"><input type="radio" name="saat" id="saat2" value="öğle"><label for="saat2">Öğle</label></span>
+          <span class="chip"><input type="radio" name="saat" id="saat3" value="akşam"><label for="saat3">Akşam</label></span>
+        </div></fieldset>
+        <p class="summary" data-book-summary aria-live="polite">“Merhaba, Klinik Pilates için hafta içi sabah ön görüşme ayarlamak istiyorum.”</p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center"><a class="btn btn-dark" href="https://wa.me/90XXXXXXXXXX" data-book-link data-magnetic data-cursor="Gönder">WhatsApp'ta gönder <span class="dot" aria-hidden="true"></span></a><span class="note">ya da arayın: [TELEFON]</span></div>
+      </form>
+    </div>
+  </section>
+
+  <section class="map-sec">
+    <div class="wrap">
+      <div class="art" data-reveal><svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g stroke="#D6D2CA" stroke-width="1"><path d="M0 0V420"/><path d="M60 0V420"/><path d="M120 0V420"/><path d="M180 0V420"/><path d="M240 0V420"/><path d="M300 0V420"/><path d="M360 0V420"/><path d="M420 0V420"/><path d="M480 0V420"/><path d="M540 0V420"/><path d="M600 0V420"/><path d="M660 0V420"/><path d="M720 0V420"/><path d="M780 0V420"/><path d="M840 0V420"/><path d="M900 0V420"/><path d="M960 0V420"/><path d="M1020 0V420"/><path d="M1080 0V420"/><path d="M1140 0V420"/><path d="M1200 0V420"/><path d="M0 0H1200"/><path d="M0 60H1200"/><path d="M0 120H1200"/><path d="M0 180H1200"/><path d="M0 240H1200"/><path d="M0 300H1200"/><path d="M0 360H1200"/><path d="M0 420H1200"/></g><path d="M0 300 C 300 260, 420 120, 700 160 S 1000 300, 1200 220" fill="none" stroke="#1C1C1A" stroke-width="1.2"/><g class="float"><path d="M690 200V130a30 30 0 0 1 60 0v70" fill="#A82A24"/></g></svg><span class="cap">Harita · Google Haritalar buraya yerleştirilecek</span></div>
+    </div>
+  </section>
+
+  <section class="faq-sec" id="sss">
+    <div class="wrap">
+      <div class="sec-head" data-reveal><div><p class="label red">S.S.S.</p><h2>Merak <em>edilenler</em></h2></div></div>
+      <div class="faq" data-reveal>
+        <div class="acc open"><button class="acc-btn" type="button" aria-expanded="true">Daha önce hiç pilates yapmadım, katılabilir miyim?<span class="pm" aria-hidden="true"></span></button><div class="acc-body"><div><p>Elbette. Ön değerlendirmenin ardından seviyenize uygun bir başlangıç programıyla ilerlersiniz.</p></div></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false">Klinik pilates ile normal pilatesin farkı nedir?<span class="pm" aria-hidden="true"></span></button><div class="acc-body"><div><p>Klinik pilates, fizyoterapist tarafından kişinin sağlık durumuna göre planlanan terapötik bir egzersiz yöntemidir. Ağrı, duruş bozukluğu veya sakatlık sonrası güvenle çalışmanızı sağlar.</p></div></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false">Hamileliğin hangi döneminde başlayabilirim?<span class="pm" aria-hidden="true"></span></button><div class="acc-body"><div><p>[Cevabınız — örn. doktor onayıyla hangi haftadan itibaren kabul ettiğiniz.]</p></div></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false">Derslere gelirken neler getirmeliyim?<span class="pm" aria-hidden="true"></span></button><div class="acc-body"><div><p>[Cevabınız — örn. rahat kıyafet, kaymaz çorap, su şişesi.]</p></div></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false">Paketler ve ücretler nasıl?<span class="pm" aria-hidden="true"></span></button><div class="acc-body"><div><p>[Paket ve ücret bilgileriniz.]</p></div></div></div><div class="acc"><button class="acc-btn" type="button" aria-expanded="false">Ders iptali veya erteleme yapabilir miyim?<span class="pm" aria-hidden="true"></span></button><div class="acc-body"><div><p>[İptal / erteleme kuralınız.]</p></div></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <img src="assets/img/logo-beyaz.png" alt="Fizyolates" width="303" height="218">
+    <div><h4>Sayfalar</h4><ul><li><a href="index.html">Ana Sayfa</a></li><li><a href="hakkimizda.html">Hakkımızda</a></li><li><a href="hizmetler.html">Hizmetler</a></li><li><a href="iletisim.html">İletişim</a></li></ul></div>
+    <div><h4>Dersler</h4><ul><li><a href="hizmetler.html#klinik-pilates">Klinik Pilates</a></li><li><a href="hizmetler.html#mat-yogasi">Mat Yogası</a></li><li><a href="hizmetler.html#zumba">Zumba</a></li><li><a href="hizmetler.html#fizyoterapi">Fizyoterapi</a></li><li><a href="hizmetler.html#hamile">Hamile &amp; Doğum Sonrası</a></li></ul></div>
+    <div><h4>Stüdyo</h4><ul><li>[ADRES]</li><li>[TELEFON]</li><li>Hafta içi [SAAT]</li><li><a href="https://instagram.com/">Instagram</a></li></ul></div>
+  </div>
+  <div class="wrap copy">© <span id="year">2026</span> Fizyolates Studio · <a href="#">KVKK Aydınlatma Metni</a></div>
+</footer>
+<a class="wa" href="https://wa.me/90XXXXXXXXXX" aria-label="WhatsApp ile yazın" data-cursor="WhatsApp"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.8L3 21l1.2-4.6A9 9 0 1 1 21 12z"/></svg></a>
+<script src="assets/site.js"></script>
+</body>
+</html>
